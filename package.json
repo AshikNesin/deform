@@ -1,0 +1,31 @@
+{
+  "name": "formify",
+  "version": "1.0.0",
+  "description": "Simple Backend for your form submissions",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashiknesin/formify.git"
+  },
+  "keywords": [
+    "express",
+    "form",
+    "email"
+  ],
+  "author": "Ashik Nesin <mail@ashiknesin.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashiknesin/formify/issues"
+  },
+  "homepage": "https://github.com/ashiknesin/formify#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "send-email": "^1.1.1"
+  }
+}
